@@ -1,0 +1,38 @@
+.admin-main {
+    height: 87.8vh;
+}
+
+.admin-main input {
+    border: 1px solid #000;
+    padding: 0 10px;
+    border-radius: 3px;
+    min-height: 40px;
+    width: 100%;
+}
+
+.admin-main input[type="file"] {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.admin-main .Auth-form-container {
+    padding: 40px 0;
+    max-width: 650px;
+    border-radius: 5px;
+    box-shadow: 18px 18px 0px 0px rgb(49 33 143 / 20%);
+}
+
+.admin-main .Auth-form-container .input-container {
+    margin-bottom: 20px;
+}
+
+.admin-main .Auth-form-container label {
+    margin-bottom: 10px;
+}
+
+.upload-img form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
